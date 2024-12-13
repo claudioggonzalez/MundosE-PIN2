@@ -8,10 +8,11 @@ Las acciones se encuentras deshabilitadas!!!!!!!!
 
 **Tomar capturas para el informe durante todo los pasos**
 
-- [ ] Crear la pagina estatica (index.html) para usar en el servidor web.
+- [X] Crear la pagina estatica (index.html) para usar en el servidor web.
 - [ ] Agregar secrets de AWS
 - [ ] Crear el S3 y la DynamoDB para el tfstate
 - [ ] Crear los archivos terraform necesarios para:
     - [ ] Instanciar la EC2
     - [ ] Instalar el servidor web
     - [ ] Copiar la pagina estática
+- [ ] Hacer el informe
