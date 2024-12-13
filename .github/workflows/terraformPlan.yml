@@ -2,7 +2,7 @@ name: "Terraform Plan"
 
 on:
   pull_request:
-  types: [opened, reopened]
+    types: [opened, reopened]
 
 jobs:
   terraform-apply-job:
