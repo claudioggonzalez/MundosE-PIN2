@@ -1,12 +1,12 @@
-name: "Terraform Apply"
+name: "Terraform Plan"
 
 on:
-  push:
-    branches:
-      - 'main'
+  pull_request:
+    branches: main
+    types: [opened, reopened]
 
 jobs:
-  terraform-apply-job:
+  terraform-plan-job:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,5 +14,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Terraform
-        run: echo "Terraform Apply"
+        run: echo "Terraform Plan"
         
