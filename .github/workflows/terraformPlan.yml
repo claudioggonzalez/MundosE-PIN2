@@ -2,10 +2,11 @@ name: "Terraform Plan"
 
 on:
   pull_request:
+    branches: main
     types: [opened, reopened]
 
 jobs:
-  terraform-apply-job:
+  terraform-plan-job:
     runs-on: ubuntu-latest
 
     steps:
